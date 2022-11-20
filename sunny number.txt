@@ -1,0 +1,12 @@
+ public static void main(String[] args) {
+        for(int a=1;a<1000;a++)
+        {
+            for(int i=1;i<1000;i++)
+            {
+                int b=a+1;
+                if((int)Math.pow(i,2)==b)
+                {
+                    System.out.println(a + "is a sunny number");
+                }
+            }
+        }
